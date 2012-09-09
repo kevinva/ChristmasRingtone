@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="ringtone_sys_name_list">
+        <item>着メロ01</item>
+        <item>着メロ02</item>
+        <item>着メロ03</item>
+        <item>着メロ04</item>
+        <item>着メロ05</item>
+        <item>着メロ06</item>
+        <item>着メロ07</item>
+        <item>着メロ08</item>
+        <item>着メロ09</item>
+        <item>着メロ10</item>
+        <item>着メロ11</item>
+        <item>着メロ12</item>
+        <item>着メロ13</item>
+        <item>着メロ14</item>
+        <item>着メロ15</item>
+        <item>着メロ16</item>
+        <item>着メロ17</item>
+        <item>着メロ18</item>
+        <item>着メロ19</item>
+        <item>着メロ20</item>
+        <item>着メロ21</item>
+        <item>着メロ22</item>
+        <item>着メロ23</item>
+        <item>着メロ24</item>
+        <item>着メロ25</item>
+        <item>着メロ26</item>
+        <item>着メロ27</item>
+        <item>着メロ28</item>
+        <item>着メロ29</item>
+        <item>着メロ30</item>
+        <item>着メロ31</item>
+        <item>着メロ32</item>
+        <item>着メロ33</item>
+        <item>着メロ34</item>
+        <item>着メロ35</item>
+        <item>着メロ36</item>
+        <item>着メロ37</item>
+        <item>着メロ38</item>
+        <item>着メロ39</item>
+        <item>着メロ40</item>
+        <item>着メロ41</item>
+        <item>着メロ42</item>
+    </string-array>
+</resources>

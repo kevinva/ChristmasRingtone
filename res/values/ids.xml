@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="ringtone_btn">false</item>
+    <item type="id" name="main_layout">false</item>
+    <item type="id" name="ringtone_layout">false</item>
+    <item type="id" name="main_view">false</item>
+    <item type="id" name="admogo_layout">false</item>
+    <item type="id" name="menu_instruction">false</item>
+    <item type="id" name="menu_share">false</item>
+    <item type="id" name="menu_more">false</item>
+    <item type="id" name="menu_rate">false</item>
+    <item type="id" name="menu_uninstall_all">false</item>
+    <item type="id" name="menu_quit">false</item>
+    <item type="id" name="install_ringtone">false</item>
+    <item type="id" name="install_notification">false</item>
+    <item type="id" name="install_alarm">false</item>
+    <item type="id" name="cancel">false</item>
+</resources>

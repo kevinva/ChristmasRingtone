@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="ringtone_sys_name_list">
+        <item>铃声01</item>
+        <item>铃声02</item>
+        <item>铃声03</item>
+        <item>铃声04</item>
+        <item>铃声05</item>
+        <item>铃声06</item>
+        <item>铃声07</item>
+        <item>铃声08</item>
+        <item>铃声09</item>
+        <item>铃声10</item>
+        <item>铃声11</item>
+        <item>铃声12</item>
+        <item>铃声13</item>
+        <item>铃声14</item>
+        <item>铃声15</item>
+        <item>铃声16</item>
+        <item>铃声17</item>
+        <item>铃声18</item>
+        <item>铃声19</item>
+        <item>铃声20</item>
+        <item>铃声21</item>
+        <item>铃声22</item>
+        <item>铃声23</item>
+        <item>铃声24</item>
+        <item>铃声25</item>
+        <item>铃声26</item>
+        <item>铃声27</item>
+        <item>铃声28</item>
+        <item>铃声29</item>
+        <item>铃声30</item>
+        <item>铃声31</item>
+        <item>铃声32</item>
+        <item>铃声33</item>
+        <item>铃声34</item>
+        <item>铃声35</item>
+        <item>铃声36</item>
+        <item>铃声37</item>
+        <item>铃声38</item>
+        <item>铃声39</item>
+        <item>铃声40</item>
+        <item>铃声41</item>
+        <item>铃声42</item>
+    </string-array>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.kevin.ringtone50"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="3" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".activity.MainActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+       <!-- 声明Mogo的Activity -->
+        <activity
+            android:name="com.adsmogo.adview.AdsMogoWebView"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- 声明多盟的Activity -->
+        <activity
+            android:name="cn.domob.android.ads.DomobActivity"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- 声明安沃的Activity -->
+        <activity
+            android:name="com.adwo.adsdk.AdwoAdBrowserActivity"
+            android:label="@string/app_name" />
+        <!-- 安沃全屏广告 -->
+        <activity
+            android:name="com.adwo.adsdk.AdwoSplashAdActivity"
+            android:label="@string/app_name" />
+
+
+        <!-- 声明AdMob的Activity -->
+        
+             <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+       
+
+        <!-- 注册Service，应用下载所需 -->
+        <service
+            android:name="com.adsmogo.controller.service.UpdateService"
+            android:exported="true"
+            android:process=":remote" />
+        <!-- 注册Service，应用被安装所用 -->
+        <service
+            android:name="com.adsmogo.controller.service.CountService"
+            android:exported="true"
+            android:process=":remote" />
+				   
+        <!-- Airpush start-->
+		<!--Start required declaration for all ads-->        
+        <meta-data android:name="com.airpush.android.APPID" android:value="67292" />
+        <meta-data android:name="com.airpush.android.APIKEY" android:value="apikey*1345103177648703821" />
+        
+        <!-- This activity is required for all ads. -->
+        <activity android:exported="false" android:name="com.airpush.android.OptinActivity" 
+            android:configChanges="orientation|keyboardHidden" android:theme="@android:style/Theme.Translucent" />
+        <!-- End of the required declaration  -->
+        <!-- Start declaration for push notification ads. -->
+	        <service  android:name="com.airpush.android.PushService"   android:exported="false" />
+	        <receiver android:name="com.airpush.android.BootReceiver" android:exported="false" >
+	            <intent-filter>
+	                <action android:name="android.intent.action.BOOT_COMPLETED" />
+	                <category android:name="android.intent.category.HOME" />
+	            </intent-filter>
+	        </receiver>
+		<!-- End declaration for push notification ads. -->
+        <!-- Add this activity for Smart wall ads.. -->
+       
+        <activity
+            android:name="com.airpush.android.SmartWallActivity" android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask" />		       
+        <!-- End of Airpush Manifest declaration-->	
+		<!-- Airpush end  -->
+		
+    </application>
+    
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.RECEIVER_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+</manifest>

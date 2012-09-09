@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+  	android:id="@+id/install_ringtone"
+  	android:title="@string/ctx_menu_install_ringtone"
+  	/>
+  <item
+  	android:id="@+id/install_notification"
+  	android:title="@string/ctx_menu_install_notification"
+  	/>
+  <item
+  	android:id="@+id/install_alarm"
+  	android:title="@string/ctx_menu_install_alarm"
+  	/>
+  <item
+  	android:id="@+id/cancel"
+  	android:title="@string/ctx_menu_cancel"
+  	/>
+</menu>

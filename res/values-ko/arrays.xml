@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="ringtone_sys_name_list">
+        <item>벨소리01</item>
+        <item>벨소리02</item>
+        <item>벨소리03</item>
+        <item>벨소리04</item>
+        <item>벨소리05</item>
+        <item>벨소리06</item>
+        <item>벨소리07</item>
+        <item>벨소리08</item>
+        <item>벨소리09</item>
+        <item>벨소리10</item>
+        <item>벨소리11</item>
+        <item>벨소리12</item>
+        <item>벨소리13</item>
+        <item>벨소리14</item>
+        <item>벨소리15</item>
+        <item>벨소리16</item>
+        <item>벨소리17</item>
+        <item>벨소리18</item>
+        <item>벨소리19</item>
+        <item>벨소리20</item>
+        <item>벨소리21</item>
+        <item>벨소리22</item>
+        <item>벨소리23</item>
+        <item>벨소리24</item>
+        <item>벨소리25</item>
+        <item>벨소리26</item>
+        <item>벨소리27</item>
+        <item>벨소리28</item>
+        <item>벨소리29</item>
+        <item>벨소리30</item>
+        <item>벨소리31</item>
+        <item>벨소리32</item>
+        <item>벨소리33</item>
+        <item>벨소리34</item>
+        <item>벨소리35</item>
+        <item>벨소리36</item>
+        <item>벨소리37</item>
+        <item>벨소리38</item>
+        <item>벨소리39</item>
+        <item>벨소리40</item>
+        <item>벨소리41</item>
+        <item>벨소리42</item>
+    </string-array>
+</resources>

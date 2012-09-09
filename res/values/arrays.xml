@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="ringtone_sys_name_list">
+        <item>ringtone01</item>
+        <item>ringtone02</item>
+        <item>ringtone03</item>
+        <item>ringtone04</item>
+        <item>ringtone05</item>
+        <item>ringtone06</item>
+        <item>ringtone07</item>
+        <item>ringtone08</item>
+        <item>ringtone09</item>
+        <item>ringtone10</item>
+        <item>ringtone11</item>
+        <item>ringtone12</item>
+        <item>ringtone13</item>
+        <item>ringtone14</item>
+        <item>ringtone15</item>
+        <item>ringtone16</item>
+        <item>ringtone17</item>
+        <item>ringtone18</item>
+        <item>ringtone19</item>
+        <item>ringtone20</item>
+        <item>ringtone21</item>
+        <item>ringtone22</item>
+        <item>ringtone23</item>
+        <item>ringtone24</item>
+        <item>ringtone25</item>
+        <item>ringtone26</item>
+        <item>ringtone27</item>
+        <item>ringtone28</item>
+        <item>ringtone29</item>
+        <item>ringtone30</item>
+        <item>ringtone31</item>
+        <item>ringtone32</item>
+        <item>ringtone33</item>
+        <item>ringtone34</item>
+        <item>ringtone35</item>
+        <item>ringtone36</item>
+        <item>ringtone37</item>
+        <item>ringtone38</item>
+        <item>ringtone39</item>
+        <item>ringtone40</item>
+        <item>ringtone41</item>
+        <item>ringtone42</item>
+    </string-array>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Cool Ringtone</string>
+    <string name="dialog_title">Instructions</string>
+    <string name="dialog_message">*Playing Ringtone: Click buttons to play ringtones within the app.\n\n *Saving: To save ringtones to phone, hold the button for one second until a menu is displayed and choose an option from the menu.\n\n After installing, you can choose to set it as default ringtone or not.\n\n If the ringtone is already installed, the menu will change to Manage rather than install. This option allows you to uninstall or set as default ringtone.\n\n *Notifications: For notifications, only the system wide DEFAULT notification can be set. You may have apps which individually choose alternate notifications rather than the default. For example, in Gmail go to menu->more->settings and choose \'Select ringtone\'. Anything other than \'Default ringtone\' being set here will override the notification setting set within the Sound app. To enable the notification set by the sound app, choose \'Default ringtone\' within the application in which you wish the notification to apply.\n\n Press Menu \n\n *Introduction: Detailed description of the use of the app.\n\n *Share: You can share this app to everyone through SMS、E-mail、facebook or twitter. \n\n * More: More interesting ringtone offer to you. \n\n * Uninstall: Uninstall all the ringtones of the app.\n\n * Exit: Exit the app.\n\n *Rate: If you like this app, please give us good Rate. Otherwise, please give some suggestion by mail.</string>
+    <string name="dialog_button_confirm">OK</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+    <string name="dialog_whether_set_default_ringtone">Set As Default Ringtone?</string>
+    <string name="dialog_whether_set_default_notification">Set As Default Notification?</string>
+    <string name="dialog_whether_set_default_alarm">Set As Default Alarm?</string>
+    <string name="progress_dialog_title_wait">Wait</string>
+    <string name="progress_dialog_message_installing">Installing...</string>
+    <string name="ctx_menu_install_ringtone">Install Ringtone</string>
+    <string name="ctx_menu_manage_ringtone">Manage Ringtone</string>
+    <string name="ctx_menu_uninstall_ringtone">Uninstall Ringtone</string>
+    <string name="ctx_menu_default_ringtone">Default Ringtone</string>
+    <string name="ctx_menu_install_notification">Install Notification</string>
+    <string name="ctx_menu_manage_notification">Manage Notification</string>
+    <string name="ctx_menu_uninstall_notification">Uninstall Notification</string>
+    <string name="ctx_menu_default_notification">Default Notification</string>
+    <string name="ctx_menu_install_alarm">Install Alarm</string>
+    <string name="ctx_menu_manage_alarm">Manage Alarm</string>
+    <string name="ctx_menu_uninstall_alarm">Uninstall Alarm</string>
+    <string name="ctx_menu_default_alarm">Default Alarm</string>
+    <string name="ctx_menu_cancel">Cancel</string>
+    <string name="option_menu_more">More</string>
+    <string name="option_menu_rate">Rate</string>
+    <string name="option_menu_quit">Quit</string>
+    <string name="option_menu_instruction">Instruction</string>
+    <string name="option_menu_uninstall_all">Uninstall All</string>
+    <string name="option_menu_share">Share</string>
+    <string name="option_menu_more_link">market://search?q=pub:\"Ringtone Soundboard\"</string>
+    <string name="option_menu_rate_link">market://details?id=com.jj.ringtone2</string>
+    <string name="share_title">share</string>
+    <string name="share_text_prefix">Share an interesting app to you:</string>
+    <string name="share_text_content">http://android.1717app.com/2.html</string>
+    <string name="toast_install_succeed">Ringtone copied to SD</string>
+    <string name="toast_uninstall_ringtone">Ringtone Uninstall Successfully</string>
+    <string name="toast_uninstall_notification">Notification Uninstall Successfully</string>
+    <string name="toast_uninstall_alarm">Alarm Uninstall Successfully</string>
+    <string name="toast_set_default_ringtone">Default Ringtone Set</string>
+    <string name="toast_set_default_notification">Default Notification Set</string>
+    <string name="toast_set_default_alarm">Default Alarm Set</string>
+    <string name="toast_has_set_defalut_ringtone">Default Ringtone has been Set</string>
+    <string name="toast_has_set_defalut_notification">Default Notification has been Set</string>
+    <string name="toast_has_set_defalut_alarm">Default Alarm has been Set</string>
+    <string name="toast_error_set_ringtone">Error: Unable to Set Default Ringtone</string>
+    <string name="toast_error_set_notification">Error: Unable to Set Default Notification</string>
+    <string name="toast_error_set_alarm">Error: Unable to Set Default Alarm</string>
+    <string name="toast_all_uninstall_successfully">All Uninstall Successfully</string>
+	<string name="AdMogo_USER_ID">3a9dd8eb23b84f5db803f968f53f3635</string>
+    <string name="AdMogo_USER_ID2">40b158bf3bef40cfba79b6977b05266a</string>
+</resources>
