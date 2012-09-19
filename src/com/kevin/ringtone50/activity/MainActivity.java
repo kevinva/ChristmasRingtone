@@ -33,14 +33,17 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.BIdNdKzg.AGTSwiNR38382.Airpush;
-import com.adsmogo.adview.AdsMogoLayout;
+import com.admogo.AdMogoLayout;
+import com.admogo.AdMogoManager;
+import com.airpush.android.Airpush;
 import com.kevin.ringtone50.R;
 import com.kevin.ringtone50.adapter.ButtonAdapter;
 import com.kevin.ringtone50.data_model.MyRingtone;
 import com.kevin.ringtone50.utils.Constants;
 import com.kevin.ringtone50.utils.FileHandler;
 import com.kevin.ringtone50.utils.MyRingtoneHelper;
+
+
 
 
 public class MainActivity extends Activity {
@@ -73,7 +76,7 @@ public class MainActivity extends Activity {
 	};
 	
 	private Airpush airpush;
-	private AdsMogoLayout adsMogoLayoutCode;
+	//private AdsMogoLayout adsMogoLayoutCode;
 	
     /** Called when the activity is first created. */
     @Override
@@ -125,9 +128,12 @@ public class MainActivity extends Activity {
     		this.progressD.dismiss();
     	}
     	
+    	/*
 		if (adsMogoLayoutCode != null) {
 			adsMogoLayoutCode.clearThread();
-		}		
+		}
+		*/
+    	AdMogoManager.clear();
     	
     }
  
@@ -580,10 +586,17 @@ public class MainActivity extends Activity {
     
 	//加载上部AdMogo广告
 	private void addAdMogoLayout(){
+		/*
 		adsMogoLayoutCode = new AdsMogoLayout(this,	this.getString(R.string.AdMogo_USER_ID2), false);		
 		LinearLayout mainLayout = (LinearLayout)findViewById(R.id.main_layout);		
     	LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
     	mainLayout.addView(adsMogoLayoutCode, 0, params);
+    	*/
+		
+    	LinearLayout mainLayout = (LinearLayout)findViewById(R.id.main_layout);
+    	LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+    	AdMogoLayout adMogoLayoutCode = new AdMogoLayout(this, this.getResources().getString(R.string.AdMogo_USER_ID2));
+    	mainLayout.addView(adMogoLayoutCode, 0, params);
 	}
 	
 	private void addAirpush(){

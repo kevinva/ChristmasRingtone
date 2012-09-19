@@ -24,7 +24,6 @@ public final class R {
     }
     public static final class id {
         public static final int admogo_layout=0x7f070004;
-        public static final int adsMogoView=0x7f070011;
         public static final int cancel=0x7f07000e;
         public static final int imageView=0x7f07000f;
         public static final int install_alarm=0x7f07000d;
